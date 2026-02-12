@@ -266,14 +266,48 @@
       @media (max-width: 640px) {
         .card-row {
           flex-direction: column;
-          align-items: flex-start;
+          align-items: center;
+          gap: 14px;
+          text-align: center;
         }
         .photo {
           width: 120px;
           height: 120px;
+          flex: 0 0 auto;
+          border-radius: 50%;
+        }
+        .profile-photo {
+          border-radius: 50%;
+        }
+        .message {
+          width: 100%;
+        }
+        h1 {
+          font-size: 1.6rem;
+        }
+        h2 {
+          font-size: 1.05rem;
+        }
+        p.lead {
+          font-size: 0.95rem;
+        }
+        .cake {
+          justify-content: center;
+        }
+        .candle {
+          margin-left: 0;
+        }
+        .balloons {
+          display: none;
+        }
+        .confetti i {
+          display: none;
         }
         .scene {
-          padding: 22px;
+          padding: 18px;
+        }
+        .footer {
+          font-size: 0.9rem;
         }
       }
     </style>
